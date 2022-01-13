@@ -2,7 +2,7 @@ package com.fawacom.dsmovie.dto;
 
 public class ScoreDTO {
 
-    private Long movideId;
+    private Long movieId;
     private String email;
     private Double score;
 
@@ -10,12 +10,12 @@ public class ScoreDTO {
 
     }
 
-    public Long getMovideId() {
-        return movideId;
+    public Long getMovieId() {
+        return movieId;
     }
 
-    public void setMovideId(Long movideId) {
-        this.movideId = movideId;
+    public void setMovieId(Long movieId) {
+        this.movieId = movieId;
     }
 
     public String getEmail() {

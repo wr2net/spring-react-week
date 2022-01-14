@@ -1,0 +1,80 @@
+{
+	"info": {
+		"_postman_id": "01e95c62-d54d-4a45-93d0-e88db86efabb",
+		"name": "DSMovie",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Movies",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{server}}/movies?size=12&page=1",
+					"host": [
+						"{{server}}"
+					],
+					"path": [
+						"movies"
+					],
+					"query": [
+						{
+							"key": "size",
+							"value": "12"
+						},
+						{
+							"key": "page",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Movies by Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{server}}/movies/2",
+					"host": [
+						"{{server}}"
+					],
+					"path": [
+						"movies",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Score",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"movieId\": 1,\n    \"email\": \"rodrigo@gmail.com\",\n    \"score\": 5\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server}}/scores",
+					"host": [
+						"{{server}}"
+					],
+					"path": [
+						"scores"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

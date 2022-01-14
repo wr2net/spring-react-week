@@ -7,10 +7,10 @@ function NavBar() {
             <nav className="container">
                 <div className="dsmovie-nav-content">
                     <h1>DSMovie</h1>
-                    <a href="https://github.com/wr2net" target="_blank" rel="noreferrer">
+                    <a href="https://github.com/wr2net/spring-react-week" target="_blank" rel="noreferrer">
                         <div className="dsmovie-contact-container">
                             <GithubIcon />
-                            <p className="dsmovie-contact-link">/wr2net</p>
+                            <p className="dsmovie-contact-link">/wr2net/spring-react-week</p>
                         </div>
                     </a>
                 </div>

@@ -1,5 +1,5 @@
 # Semana Spring React
-#### Realização: [DevSuperior - Escola de Programação](https://devsuperior.com.br/?target=_blank)
+#### Realização: [DevSuperior - Escola de Programação](https://devsuperior.com.br/){:target="_blank"}
 
 
 ## Episódio 1 - Spring e React no mercado
@@ -20,7 +20,7 @@ Desenvolvido em TypeScript/Javascript com ReactJs Framework.
 ### Postman
 Disponibilizado as coleções e os environments para apontamento do servidor backend no localhost e em produção para realização dos testes e visualização das requisições.
 
-[Backend em produção](https://wr2net-dsmovie.herokuapp.com/?target=_blank)
+[Backend em produção](https://wr2net-dsmovie.herokuapp.com/){:target="_blank"}
 <br />
-[Frontend em produção](https://wr2net-dsmovie.netlify.app/?target=_blank)
+[Frontend em produção](https://wr2net-dsmovie.netlify.app/){:target="_blank"}
 
